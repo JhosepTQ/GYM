@@ -47,3 +47,9 @@ document.getElementById('promo-6meses-btn').addEventListener('click', function(e
     const telefono = '51925097827';
     window.open(`https://wa.me/${telefono}?text=${mensaje}`, '_blank');
 });
+document.getElementById('cnt').addEventListener('click', function(e) {
+    e.preventDefault();
+    const mensaje = encodeURIComponent('Hola, me brindan informacion por favor.');
+    const telefono = '51925097827';
+    window.open(`https://wa.me/${telefono}?text=${mensaje}`, '_blank');
+});
